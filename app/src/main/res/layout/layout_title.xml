@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Presenting Kana"
+        android:textColor="@color/color_000000"
+        android:textSize="@dimen/sp_16" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_back"
+        />
+
+    <TextView
+        android:id="@+id/tv_left_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_back"
+        android:text="返回back"
+        android:textColor="@color/color_000000"
+        android:textSize="@dimen/sp_16"
+
+        />
+
+
+
+</RelativeLayout>
